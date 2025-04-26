@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+	 font-family: "Playfair Display", serif;
+	 font-size: 15px;
+	 font-weight: 400;
+	 color: #626262;
+	 
+}
+
+header{
+	padding: 35px 0;
+	
+}
+
+.container{
+	width: 90%;
+	
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 7px;
+width: 12%;
+float: left;
+font-size: 28px;
+}
+.menu{
+	float: right;
+	width: 60%;
+	
+}
+.menu ul{
+
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 14px;
+margin: 0 30px;
+color: #626262;
+text-transform: uppercase;
+border-bottom: 1px solid transparent;
+transition: .33s linear;
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+.b_image img{
+	width: 100%;
+}
+.text{
+	padding: 100px 0 30px;
+}
+.container2{
+	overflow: hidden;
+	width: 80%;
+	
+	margin: 0 auto;
+}
+.a_content{}
+.c_light{ font-family: "Ubuntu", sans-serif;
+	margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+ }
+.c_title{
+	margin: 20px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 24px;
+}
+.gost{
+	margin-top: 45px;
+}
+.blog{
+	padding: 0 0 100px;
+}
+.blog-item{
+	box-sizing: border-box;
+	float: left;
+	width: 47%;
+	margin-top:70px;
+	/*border: 1px solid orangered;*/
+}
+.bl_image{
+	margin-bottom: 20px;
+}
+.bl_image img{
+	width: 100%;
+}
+.blog-item:nth-child(even){
+	margin-left: 60px;
+}
+.bottom{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+.sign{
+text-align: center;
+}
+.single{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom:70px;
+}
+.s_form{
+	width: 380px;
+	position: relative;
+	margin: 0 auto;
+
+}
+.s_form input{
+ font-family: "Playfair Display", serif;
+ color: #626262;
+ font-size: 14px;
+ font-weight: 400;
+ width: 370px;
+ height: 45px;
+ border-bottom: 1px solid #000000;
+border: none;
+background-color: transparent;
+padding-left: 5px;
+padding-right: 45px;
+
+}
+.s_form input:focus{
+	outline: 0;
+}
+
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	right: 0;
+	top: 10px;
+	cursor: pointer;
+}
+.s_form button:focus{
+	
+}
+
+.s_form button img{}
+
+.end{
+	padding: 150px 0;
+	justify-content: center;
+	align-items: center;
+}
+.container3{
+	width: 10%;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.btn{
+	height: 40px;
+	width: 100px;
+	background-color: white;
+	 font-family: "Playfair Display", serif;
+	 font-size: 14px;
+}
+.footer{
+	height: 13vh;
+	background-color: #f0f0f0;
+}
